@@ -1,38 +1,200 @@
+/* Existing Styles (unchanged) */
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  color: rgb(0, 0, 0);
+  min-height: 100vh;
+  background-image: url('https://snic.lk/wp/wp-content/uploads/2019/10/IMG_7472.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Optional, gives a parallax effect */
+  transition: background 0.5s ease; /* Smooth transition for background */
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 50px;
+  background: rgba(165, 255, 252, 0.6); /* Semi-transparent background */
+  transition: transform 0.5s ease-in-out; /* Hover effect for header */
+}
+
+.header-title {
+  font-size: 3.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.header-title:hover {
+  transform: scale(1.1); /* Slightly enlarge the title */
+  color: #61dafb; /* Change to React blue */
+}
+
+.header-subtitle {
+  font-size: 2em;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.header-subtitle:hover {
+  transform: scale(1.1); /* Slightly enlarge the subtitle */
+  color: #61dafb; /* Change to React blue */
 }
 
 .App-link {
   color: #61dafb;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-link:hover {
+  color: #fff; /* Make the link white when hovered */
 }
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+  transition: opacity 0.5s ease; /* Smooth fade effect */
+}
+
+.text-frame {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  width: 60%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease; /* Hover effect for text frame */
+}
+
+.text-frame:hover {
+  transform: translateY(-5px); /* Lift the frame when hovered */
+}
+
+.paragraph-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px; /* Space between the image and text */
+}
+
+.text-content {
+  font-size: 1.2em;
+  line-height: 1.6;
+  transition: color 0.3s ease; /* Smooth color change */
+}
+
+.text-content:hover {
+  color: #000090; /* Change text color to React blue when hovered */
+}
+
+/* New Styles for Innovation Hub */
+.innovation-hub-button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.innovation-hub-button:hover {
+  background-color: #4fa3d1;
+  transform: translateY(-2px); /* Lift the button slightly when hovered */
+}
+
+.innovation-hub {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 60%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease; /* Hover effect for the hub */
+}
+
+.innovation-hub:hover {
+  transform: translateY(-5px); /* Lift the hub when hovered */
+}
+
+.add-project-form {
+  margin: 20px auto;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-project-form input,
+.add-project-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease; /* Smooth border color change */
+}
+
+.add-project-form input:focus,
+.add-project-form textarea:focus {
+  border-color: #61dafb; /* Highlight input fields when focused */
+}
+
+.add-project-form button {
+  padding: 10px 20px;
+  background-color: #61dafb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.add-project-form button:hover {
+  background-color: #4fa3d1;
+  transform: translateY(-2px); /* Lift the button slightly when hovered */
+}
+
+.projects-list {
+  margin-top: 30px;
+}
+
+.projects-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projects-list li {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: rgba(240, 240, 240, 0.7);
+  border-radius: 8px;
+  transition: transform 0.3s ease; /* Hover effect for project items */
+}
+
+.projects-list li:hover {
+  transform: translateY(-5px); /* Lift the project item when hovered */
+}
+
+.projects-list li h3 {
+  margin-top: 0;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 300px;
+  margin-top: 10px;
+  border-radius: 8px;
+  transition: transform 0.3s ease; /* Hover effect for project images */
+}
+
+.project-image:hover {
+  transform: scale(1.05); /* Slightly enlarge the image when hovered */
+}
+
+
+
+

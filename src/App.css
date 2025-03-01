@@ -90,7 +90,7 @@
 /* New Styles for Innovation Hub */
 .innovation-hub-button {
   padding: 10px 20px;
-  background-color: #61dafb;
+  background-color: #060081;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -100,7 +100,7 @@
 }
 
 .innovation-hub-button:hover {
-  background-color: #4fa3d1;
+  background-color: #6c00d0;
   transform: translateY(-2px); /* Lift the button slightly when hovered */
 }
 
@@ -145,7 +145,7 @@
 
 .add-project-form button {
   padding: 10px 20px;
-  background-color: #61dafb;
+  background-color: #00a5d3;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -154,7 +154,7 @@
 }
 
 .add-project-form button:hover {
-  background-color: #4fa3d1;
+  background-color: #1000a4;
   transform: translateY(-2px); /* Lift the button slightly when hovered */
 }
 

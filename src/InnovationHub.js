@@ -27,14 +27,14 @@ function InnovationHub() {
           <input
             type="text"
             name="title"
-            placeholder="Project Title"
+            placeholder="projet tile"
             value={newProject.title}
             onChange={handleInputChange}
             required
           />
           <textarea
             name="description"
-            placeholder="Project Description"
+            placeholder="Projet Descriptioné"
             value={newProject.description}
             onChange={handleInputChange}
             required
@@ -42,7 +42,7 @@ function InnovationHub() {
           <input
             type="text"
             name="imageUrl"
-            placeholder="Image URL (optional)"
+            placeholder="foto URL (optionalé)"
             value={newProject.imageUrl}
             onChange={handleInputChange}
           />

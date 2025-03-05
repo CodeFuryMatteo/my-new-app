@@ -35,7 +35,7 @@ function Home() {
       <div className="text-frame">
         <img 
           className="paragraph-image" 
-          src="https://scontent.fcmb1-2.fna.fbcdn.net/v/t39.30808-6/277558113_7515787655128652_5201444091230306051_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=7lTN0tiBqrkQ7kNvgGVT1y9&_nc_oc=Adg5FogWDCYA8-qysxn-Q0S8CzTvHE_i8kw_1MdmHHjgHiU3D2Q4tu3qDZsqIcBmK1qTJMFMQwFPEgXdIYwYNGkt&_nc_zt=23&_nc_ht=scontent.fcmb1-2.fna&_nc_gid=ALyIQszIa4bsfVo2ZvDF7qZ&oh=00_AYDjp2Ea3pva31YZ24AlfOJDeit5M0DTFg7d6Rdtw3mtuA&oe=67C7C9AA" 
+          src="/images/logo.jpg"
           alt="St. Nicholas College" 
         />
         <p className="text-content">
